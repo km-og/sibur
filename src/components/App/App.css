@@ -1,0 +1,16 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  font-family: "ALS Gorizont ExtraBold Expanded", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  color: var(--main-color);
+  background-color: var(--main-bg-color);
+}

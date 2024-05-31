@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "ALS Gorizont ExtraBold Expanded";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./ALS\ Gorizont\ ExtraBold\ Expanded.woff") format("woff"),
+    url("./ALS\ Gorizont\ ExtraBold\ Expanded.woff2") format("woff2");
+}

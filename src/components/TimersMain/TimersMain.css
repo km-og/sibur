@@ -1,0 +1,45 @@
+.timers {
+  width: 86.67%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.timers__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.timers__btn {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--btn-color);
+  line-height: 110%;
+  margin: 9px 0 0;
+  padding: 0;
+  width: auto;
+}
+
+.timers__btn:first-of-type {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.timers__link {
+  font-size: 32px;
+  max-height: 35px;
+  text-decoration: none;
+  color: var(--btn-color);
+  line-height: 110%;
+  margin: 9px 0 0;
+}
+
+.timers__title {
+  margin: 14px 0 0;
+  padding: 0 0 16px;
+  font-size: 24px;
+  line-height: 110%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}

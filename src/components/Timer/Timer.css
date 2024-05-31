@@ -1,0 +1,122 @@
+.timer {
+  margin: 28px auto 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 27px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.timer__wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timer__count {
+  font-size: 36px;
+  line-height: 110%;
+  margin: 0;
+}
+
+.timer__count__type_single {
+  position: relative;
+  z-index: 20;
+  font-size: 40px;
+}
+
+.timer__progress {
+  width: 257px;
+  height: 257px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0;
+  position: relative;
+  background: var(--btn-color);
+}
+
+.timer__progress::before {
+  content: "";
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  background: var(--main-bg-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.timer__minutes {
+  font-size: 10px;
+  line-height: 110%;
+  margin: 0;
+}
+
+.timer__button {
+  width: 56px;
+  height: 56px;
+  margin: 0 4px 0 0;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.timer__button_type_start {
+  background: url("../../icons/start.svg") no-repeat center;
+}
+
+.timer__button_type_pause {
+  background: url("../../icons/pause.svg") no-repeat center;
+}
+
+.timer__button_type_delete {
+  background: url("../../icons/delete.svg") no-repeat center;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+.timer__button_type_more {
+  background: url("../../icons/arrow.svg") no-repeat center;
+  width: 5px;
+  height: 8px;
+  margin: 0 8px 0 0;
+}
+
+.timer__buttons {
+  display: flex;
+  gap: 21px;
+  margin: 39px auto 0;
+}
+
+.timer__buttons > .timer__button {
+  font-size: 15px;
+  padding: 13px 19px;
+  width: 161px;
+  border-radius: 32px;
+  box-shadow: inset -4px -6px 5.5px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: var(--main-color);
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer__button_type_resume {
+  background-color: var(--gold-drop);
+}
+
+.timer__button_type_cancel {
+  background-color: var(--whitesmoke);
+  display: inline-block;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
